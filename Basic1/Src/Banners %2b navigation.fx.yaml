@@ -1,0 +1,275 @@
+"'Banners + navigation' As screen":
+
+    Group3 As group:
+        Height: =5
+        Width: =5
+        X: =-580
+        Y: =-82
+        ZIndex: =3
+
+        Button1_15 As button:
+            BorderColor: =ColorFade(Self.Fill, -0%)
+            BorderThickness: =1
+            Color: =RGBA(0, 102, 248, 1)
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(173, 206, 253, 1)
+            DisabledFill: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Normal
+            Height: =75
+            HoverBorderColor: =Self.Fill
+            HoverColor: |-
+                =ColorValue("#0066F8")
+            HoverFill: =ColorFade(Self.Fill, -0%)
+            OnSelect: =
+            PaddingLeft: =40
+            PressedBorderColor: =Color.White
+            PressedColor: =RGBA(13, 81, 178, 1)
+            PressedFill: =Color.White
+            RadiusBottomLeft: =56
+            RadiusBottomRight: =56
+            RadiusTopLeft: =56
+            RadiusTopRight: =56
+            Size: =22
+            Text: ="Info"
+            Tooltip: ="0"
+            Width: =148
+            X: =480
+            Y: =11
+            ZIndex: =1
+
+        Icon6 As icon.Information:
+            Color: =RGBA(0, 102, 248, 1)
+            Height: =40
+            Icon: =Icon.Information
+            OnSelect: =
+            Width: =40
+            X: =498
+            Y: =32
+            ZIndex: =2
+
+    Group6 As group:
+        Height: =5
+        Width: =5
+        X: =57
+        Y: =-311
+        ZIndex: =7
+
+        "'Warning text' As label":
+            Color: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(255, 224, 214, 1)
+            Font: =Font.'Segoe UI'
+            Height: =433
+            PaddingBottom: =0
+            PaddingLeft: =100
+            PaddingRight: =20
+            PaddingTop: =100
+            Size: =22
+            Text: |-
+                ="You are responsible to bring breakfast in one of the upcoming weeks. 
+                
+                Please remove yourself from the list before you proceed with the deregistration."
+            VerticalAlign: =VerticalAlign.Top
+            Width: =640
+            Y: =182
+            ZIndex: =3
+
+        "'Warning header' As label":
+            Color: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =119
+            PaddingLeft: =100
+            Size: =26
+            Text: ="Warning"
+            Width: =365
+            Y: =182
+            ZIndex: =4
+
+        "'Warning banner button' As button":
+            BorderColor: =ColorFade(Self.Fill, -0%)
+            BorderThickness: =1
+            Color: =RGBA(0, 102, 248, 1)
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(173, 206, 253, 1)
+            DisabledFill: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Normal
+            Height: =82
+            HoverBorderColor: =Self.Fill
+            HoverColor: |-
+                =ColorValue("#0066F8")
+            HoverFill: =ColorFade(Self.Fill, -0%)
+            OnSelect: =
+            PressedBorderColor: =Color.White
+            PressedColor: =RGBA(13, 81, 178, 1)
+            PressedFill: =Color.White
+            RadiusBottomLeft: =56
+            RadiusBottomRight: =56
+            RadiusTopLeft: =56
+            RadiusTopRight: =56
+            Size: =22
+            Text: ="Back to list"
+            Tooltip: ="0"
+            Width: =240
+            X: =365
+            Y: =498
+            ZIndex: =5
+
+        "'Warning logo' As image":
+            Height: =60
+            Image: =Alert
+            Width: =60
+            X: =21
+            Y: =211
+            ZIndex: =6
+
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =25
+        Y: =19
+        ZIndex: =9
+
+        Label2_4 As label:
+            Color: =RGBA(0, 102, 248, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            Height: =62
+            OnSelect: =
+            PaddingLeft: =0
+            Size: =22
+            Text: ="Back"
+            Width: =166
+            X: =61
+            Y: =16
+            ZIndex: =7
+
+        Icon2 As icon.ChevronLeft:
+            Color: =RGBA(0, 102, 248, 1)
+            Height: =40
+            Icon: =Icon.ChevronLeft
+            OnSelect: =
+            Width: =40
+            X: =21
+            Y: =28
+            ZIndex: =8
+
+    Icon3 As icon.Settings:
+        Color: =RGBA(0, 102, 248, 1)
+        Icon: =Icon.Settings
+        Width: =40
+        X: =287
+        Y: =78
+        ZIndex: =14
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =10
+        Y: =-410
+        ZIndex: =14
+
+        Rectangle2 As rectangle:
+            BorderColor: =RGBA(211, 66, 9, 1)
+            Fill: =RGBA(226, 240, 250, 1)
+            Height: =382
+            Visible: |
+                =true
+            Width: =640
+            Y: =686
+            ZIndex: =9
+
+        Label8 As label:
+            Color: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Segoe UI'
+            Height: =394
+            LineHeight: =1.5
+            PaddingLeft: =100
+            PaddingRight: =30
+            PaddingTop: =100
+            Size: =22
+            Text: |-
+                ="You are now a member of the Breakfast Team!
+                Please choose a week to bring breakfast "
+            VerticalAlign: =VerticalAlign.Top
+            Visible: |
+                =true
+            Width: =640
+            Y: =686
+            ZIndex: =10
+
+        Label13 As label:
+            Color: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =63
+            PaddingLeft: =100
+            PaddingRight: =20
+            Size: =26
+            Text: ="Congratulations"
+            Visible: |
+                =true
+            Width: =545
+            Y: =719
+            ZIndex: =11
+
+        Icon1 As icon.Warning:
+            Height: =60
+            Icon: =Icon.Information
+            Visible: |
+                =true
+            Width: =60
+            X: =21
+            Y: =722
+            ZIndex: =12
+
+        Button1_16 As button:
+            BorderColor: =ColorFade(Self.Fill, -0%)
+            BorderThickness: =1
+            Color: =RGBA(0, 102, 248, 1)
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(173, 206, 253, 1)
+            DisabledFill: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Normal
+            Height: =72
+            HoverBorderColor: =Self.Fill
+            HoverColor: |-
+                =ColorValue("#0066F8")
+            HoverFill: =ColorFade(Self.Fill, -0%)
+            OnSelect: =Set(Popup, false)
+            PressedBorderColor: =Color.White
+            PressedColor: =RGBA(13, 81, 178, 1)
+            PressedFill: =Color.White
+            RadiusBottomLeft: =56
+            RadiusBottomRight: =56
+            RadiusTopLeft: =56
+            RadiusTopRight: =56
+            Size: =22
+            Text: ="Close"
+            Tooltip: ="0"
+            Visible: |
+                =true
+            Width: =193
+            X: =412
+            Y: =963
+            ZIndex: =13
+
+    Label2_7 As label:
+        Color: =RGBA(0, 102, 248, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        Height: =62
+        OnSelect: =
+        PaddingLeft: =0
+        Size: =22
+        Text: ="Back"
+        Width: =166
+        X: =332
+        Y: =78
+        ZIndex: =15
+

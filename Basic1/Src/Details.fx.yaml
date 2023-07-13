@@ -1,0 +1,7 @@
+Details As screen:
+
+    DetailForm As formViewer:
+        Width: =640
+        Y: =40
+        ZIndex: =1
+

@@ -1,0 +1,465 @@
+Buttons As screen:
+    Fill: =RGBA(237, 237, 237, 1)
+
+    Button1 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        BorderThickness: =1
+        DisabledBorderColor: =RGBA(173, 206, 253, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(173, 206, 253, 1)
+        Fill: =RGBA(0, 102, 248, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =95
+        HoverBorderColor: =Self.Fill
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: |-
+            =ColorValue( "#0D51B2" )
+        PressedColor: =Color.White
+        PressedFill: |-
+            =ColorValue( "#0D51B2" )
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =26
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =583
+        X: =28
+        ZIndex: =1
+
+    Button1_1 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        BorderThickness: =1
+        DisabledBorderColor: =RGBA(173, 206, 253, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(173, 206, 253, 1)
+        Fill: =RGBA(0, 102, 248, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =95
+        HoverBorderColor: =Self.Fill
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: |-
+            =ColorValue( "#0D51B2" )
+        PressedColor: =Color.White
+        PressedFill: |-
+            =ColorValue( "#0D51B2" )
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =26
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =260
+        X: =28
+        Y: =202
+        ZIndex: =2
+
+    Button1_2 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        BorderThickness: =1
+        Color: =RGBA(0, 102, 248, 1)
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(173, 206, 253, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =95
+        HoverBorderColor: =Self.Fill
+        HoverColor: |-
+            =ColorValue("#0066F8")
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: =Color.White
+        PressedColor: =RGBA(13, 81, 178, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =60
+        RadiusBottomRight: =60
+        RadiusTopLeft: =60
+        RadiusTopRight: =60
+        Size: =26
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =583
+        X: =28
+        Y: =379
+        ZIndex: =4
+
+    Button1_3 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        BorderThickness: =1
+        DisabledBorderColor: =RGBA(173, 206, 253, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(173, 206, 253, 1)
+        Fill: =RGBA(0, 102, 248, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =82
+        HoverBorderColor: =Self.Fill
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: |-
+            =ColorValue( "#0D51B2" )
+        PressedColor: =Color.White
+        PressedFill: |-
+            =ColorValue( "#0D51B2" )
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =22
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =583
+        X: =28
+        Y: =108
+        ZIndex: =5
+
+    Button1_4 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        BorderThickness: =1
+        DisabledBorderColor: =RGBA(173, 206, 253, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(173, 206, 253, 1)
+        Fill: =RGBA(0, 102, 248, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =82
+        HoverBorderColor: =Self.Fill
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: |-
+            =ColorValue( "#0D51B2" )
+        PressedColor: =Color.White
+        PressedFill: |-
+            =ColorValue( "#0D51B2" )
+        RadiusBottomLeft: =59
+        RadiusBottomRight: =59
+        RadiusTopLeft: =59
+        RadiusTopRight: =59
+        Size: =22
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =240
+        X: =371
+        Y: =215
+        ZIndex: =6
+
+    Button1_5 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        BorderThickness: =1
+        Color: =RGBA(0, 102, 248, 1)
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(173, 206, 253, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =82
+        HoverBorderColor: =Self.Fill
+        HoverColor: |-
+            =ColorValue("#0066F8")
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: =Color.White
+        PressedColor: =RGBA(13, 81, 178, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =43
+        RadiusBottomRight: =43
+        RadiusTopLeft: =43
+        RadiusTopRight: =43
+        Size: =22
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =240
+        X: =371
+        Y: =593
+        ZIndex: =7
+
+    Button1_6 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        BorderThickness: =1
+        Color: =RGBA(0, 102, 248, 1)
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(173, 206, 253, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =82
+        HoverBorderColor: =Self.Fill
+        HoverColor: |-
+            =ColorValue("#0066F8")
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: =Color.White
+        PressedColor: =RGBA(13, 81, 178, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =45
+        RadiusBottomRight: =45
+        RadiusTopLeft: =45
+        RadiusTopRight: =45
+        Size: =22
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =583
+        X: =28
+        Y: =486
+        ZIndex: =8
+
+    Button1_7 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        BorderThickness: =1
+        Color: =RGBA(0, 102, 248, 1)
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(173, 206, 253, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =95
+        HoverBorderColor: =Self.Fill
+        HoverColor: |-
+            =ColorValue("#0066F8")
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: =Color.White
+        PressedColor: =RGBA(13, 81, 178, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =60
+        RadiusBottomRight: =60
+        RadiusTopLeft: =60
+        RadiusTopRight: =60
+        Size: =26
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =260
+        X: =28
+        Y: =580
+        ZIndex: =9
+
+    Button1_8 As button:
+        BorderColor: |
+            =ColorValue("#0066F8")
+        BorderThickness: =1
+        Color: =RGBA(0, 102, 248, 1)
+        DisabledBorderColor: =RGBA(173, 206, 253, 1)
+        DisabledColor: =RGBA(173, 206, 253, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: =2
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =95
+        HoverBorderColor: |
+            =ColorValue("#0066F8")
+        HoverColor: |-
+            =ColorValue("#0066F8")
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: =RGBA(13, 81, 178, 1)
+        PressedColor: =RGBA(13, 81, 178, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =26
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =583
+        X: =28
+        Y: =761
+        ZIndex: =10
+
+    Button1_12 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        BorderThickness: =1
+        DisabledBorderColor: =RGBA(173, 206, 253, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(173, 206, 253, 1)
+        Fill: =RGBA(0, 102, 248, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =61
+        HoverBorderColor: =Self.Fill
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: |-
+            =ColorValue( "#0D51B2" )
+        PressedColor: =Color.White
+        PressedFill: |-
+            =ColorValue( "#0D51B2" )
+        RadiusBottomLeft: =36
+        RadiusBottomRight: =36
+        RadiusTopLeft: =36
+        RadiusTopRight: =36
+        Size: =22
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =189
+        X: =422
+        Y: =307
+        ZIndex: =14
+
+    Button1_13 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        BorderThickness: =1
+        Color: =RGBA(0, 102, 248, 1)
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(173, 206, 253, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =61
+        HoverBorderColor: =Self.Fill
+        HoverColor: |-
+            =ColorValue("#0066F8")
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: =Color.White
+        PressedColor: =RGBA(13, 81, 178, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =22
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =189
+        X: =422
+        Y: =688
+        ZIndex: =15
+
+    Button1_9 As button:
+        BorderColor: |
+            =ColorValue("#0066F8")
+        BorderThickness: =1
+        Color: =RGBA(0, 102, 248, 1)
+        DisabledBorderColor: =RGBA(173, 206, 253, 1)
+        DisabledColor: =RGBA(173, 206, 253, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: |
+            =2
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =82
+        HoverBorderColor: |
+            =ColorValue("#0066F8")
+        HoverColor: |-
+            =ColorValue("#0066F8")
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: =RGBA(13, 81, 178, 1)
+        PressedColor: =RGBA(13, 81, 178, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =22
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =583
+        X: =28
+        Y: =869
+        ZIndex: =16
+
+    Button1_10 As button:
+        BorderColor: |
+            =ColorValue("#0066F8")
+        BorderThickness: =1
+        Color: =RGBA(0, 102, 248, 1)
+        DisabledBorderColor: =RGBA(173, 206, 253, 1)
+        DisabledColor: =RGBA(173, 206, 253, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: =2
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =95
+        HoverBorderColor: |
+            =ColorValue("#0066F8")
+        HoverColor: |-
+            =ColorValue("#0066F8")
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: =RGBA(13, 81, 178, 1)
+        PressedColor: =RGBA(13, 81, 178, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =26
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =260
+        X: =28
+        Y: =964
+        ZIndex: =17
+
+    Button1_11 As button:
+        BorderColor: |
+            =ColorValue("#0066F8")
+        BorderThickness: =1
+        Color: =RGBA(0, 102, 248, 1)
+        DisabledBorderColor: =RGBA(173, 206, 253, 1)
+        DisabledColor: =RGBA(173, 206, 253, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: |-
+            =
+            2
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =82
+        HoverBorderColor: |
+            =ColorValue("#0066F8")
+        HoverColor: |-
+            =ColorValue("#0066F8")
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: =RGBA(13, 81, 178, 1)
+        PressedColor: =RGBA(13, 81, 178, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =59
+        RadiusBottomRight: =59
+        RadiusTopLeft: =59
+        RadiusTopRight: =59
+        Size: =22
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =240
+        X: =371
+        Y: =977
+        ZIndex: =18
+
+    Button1_14 As button:
+        BorderColor: |
+            =ColorValue("#0066F8")
+        BorderThickness: =1
+        Color: =RGBA(0, 102, 248, 1)
+        DisabledBorderColor: =RGBA(173, 206, 253, 1)
+        DisabledColor: =RGBA(173, 206, 253, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: =2
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =61
+        HoverBorderColor: |
+            =ColorValue("#0066F8")
+        HoverColor: |-
+            =ColorValue("#0066F8")
+        HoverFill: =ColorFade(Self.Fill, -0%)
+        PressedBorderColor: =RGBA(13, 81, 178, 1)
+        PressedColor: =RGBA(13, 81, 178, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =32
+        RadiusBottomRight: =32
+        RadiusTopLeft: =32
+        RadiusTopRight: =32
+        Size: =22
+        Text: ="Button"
+        Tooltip: ="0"
+        Width: =189
+        X: =422
+        Y: =1075
+        ZIndex: =19
+
