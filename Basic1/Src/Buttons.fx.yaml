@@ -26,7 +26,8 @@ Buttons As screen:
         Text: ="Button"
         Tooltip: ="0"
         Width: =583
-        X: =28
+        X: =15
+        Y: =1014
         ZIndex: =1
 
     Button1_1 As button:
@@ -84,8 +85,8 @@ Buttons As screen:
         Text: ="Button"
         Tooltip: ="0"
         Width: =583
-        X: =28
-        Y: =379
+        X: =57
+        Y: =337
         ZIndex: =4
 
     Button1_3 As button:
